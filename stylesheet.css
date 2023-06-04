@@ -1,0 +1,59 @@
+*{
+   background-image: linear-gradient(to right, rgba(199, 164, 164, 0), rgb(156, 122, 122));
+}
+#h{
+    border-radius: 10px;
+    min-width: 30vw;
+    height: 4vh;
+    border: 3px solid black;
+    font-size: 15px;
+    padding-left: 14px;
+    
+}
+::placeholder{
+    color: black;
+    padding: 50px;
+    font-size: 17px;
+}
+#submitIcon{
+border-radius: 10px;
+height: 35px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: rgb(183, 215, 215);
+margin-left: 10px;
+text-shadow: 2px 2px 5px rgb(174, 140, 140);
+cursor: pointer;
+border: 5px double rgb(3, 0, 0);
+}
+#git{
+    font-family: 'Alfa Slab One', cursive;
+font-family: 'Dosis', sans-serif;
+}
+#alert{
+    margin-top: 13px;
+    font-size: 30px;
+    font-family: 'Alfa Slab One', cursive;
+   }
+    #box{
+    display:flex;
+    justify-content: center;
+    position:absolute;
+    top:50vh;
+    right: 35vw;
+    text-decoration: none;
+
+}
+.images-section {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}    
+.image-container {
+    width: 40%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: rgb(38, 57, 77)
+}
